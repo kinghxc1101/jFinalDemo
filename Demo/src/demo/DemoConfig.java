@@ -48,6 +48,7 @@ public class DemoConfig extends JFinalConfig
 		ActiveRecordPlugin arp =  new ActiveRecordPlugin(druidPlugin);
 		me.add(arp);
 		arp.addMapping("t_student", Student.class);
+		arp.addMapping("t_user", User.class);
 	}
 
 	@Override
